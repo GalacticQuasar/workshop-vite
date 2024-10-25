@@ -8,11 +8,19 @@ export default function Home() {
   // Names and images for each profile
   const profileData = [
     { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" }, // Feel free to remove demo page whenever you want
+<<<<<<< HEAD
+    { name: "Person1", imageSrc: "/defaultpfp.jpg" },
+    { name: "Person2", imageSrc: "/defaultpfp.jpg" },
+    { name: "Person3", imageSrc: "/defaultpfp.jpg" },
+    { name: "Person4", imageSrc: "/defaultpfp.jpg" },
+    { name: "Sohaib", imageSrc: "/sohaib.png" },
+=======
     { name: "Kaley", imageSrc: "/kaley.jpeg" },
     { name: "Person2", imageSrc: "/defaultpfp.jpg" },
     { name: "Amey Bhandari", imageSrc: "/defaultpfp.jpg" },
     { name: "ShreyasViswanathan", imageSrc: "/shreyas.jpg" },
     { name: "Person5", imageSrc: "/defaultpfp.jpg" },
+>>>>>>> 07711e207633bf73eb946eee0f3966118cd51627
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
     { name: "Person7", imageSrc: "/defaultpfp.jpg" },
     { name: "Daniel", imageSrc: "/danielFakunle.jpg" },
@@ -26,11 +34,15 @@ export default function Home() {
 
   return (
     <>
+<<<<<<< HEAD
+      <div className={`min-h-screen w-screen bg-black flex flex-col ${showOutline ? "outline" : ""}`}>
+=======
       <div
         className={`min-h-screen w-screen bg-black flex flex-col ${
           showOutline ? "outline" : ""
         }`}
       >
+>>>>>>> 07711e207633bf73eb946eee0f3966118cd51627
         {/* Outline Toggle Button */}
         <div className="absolute top-4 right-4 flex items-center">
           <label className="switch">
@@ -57,11 +69,7 @@ export default function Home() {
               className="w-48 h-48 flex flex-col items-center font-monument text-xl"
             >
               <Link to={`/profile/${profile.name}`}>
-                <img
-                  className="profile-img"
-                  src={profile.imageSrc}
-                  alt={`${profile.name}'s profile`}
-                />
+                <img className="profile-img" src={profile.imageSrc} alt={`${profile.name}'s profile`} />
               </Link>
               <span className="text-white font-semibold mt-2">
                 {profile.name}

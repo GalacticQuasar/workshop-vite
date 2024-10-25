@@ -37,6 +37,12 @@ function ProfileRouter() {
       return <Kaley />;
     case "Person2":
       return <DemoPage />;
+    case "Person3":
+      return <DemoPage />;
+    case "Person4":
+      return <DemoPage />;
+    case "Sohaib":
+      return <Sohaib />;
     case "Amey Bhandari":
       return <AmeyPage />;
     case "ShreyasViswanathan":
