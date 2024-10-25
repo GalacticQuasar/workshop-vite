@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { useParams } from "react-router-dom";
 import DemoPage from './pages/demoPage.jsx'
 import AkashPage from './pages/AkashPage.jsx'
+import ShreyasViswanathan from './pages/shreyasViswanathan.jsx';
 import './index.css'
 import Home from './Home.jsx'
 import Example from './pages/example.jsx';
@@ -35,8 +36,8 @@ function ProfileRouter() {
       return <DemoPage />;
     case "Person3":
       return <DemoPage />;
-    case "Person4":
-      return <DemoPage />;
+    case "ShreyasViswanathan":
+      return <ShreyasViswanathan />;
     case "Person5":
       return <DemoPage />;
     case "Person6":
