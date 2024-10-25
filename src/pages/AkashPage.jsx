@@ -35,12 +35,26 @@ export default function DemoPage() {
         <div className="w-full h-3/6 flex flex-col items-center mt-4 pt-12">
           {/* Profile Picture */}
           <img
-            src="../AkashPic.jpg" // Placeholder image
+            src="../AkashPic.jpg"
             alt="Profile Picture"
-            className={`w-96 h-96 object-cover ${isHovered ? "scale-110" : "scale-100"} transition-transform duration-300`}
+            className={`w-96 h-96 object-cover transition-transform duration-300 ${isHovered ? "scale-110 rotate-6 shadow-xl animate-jitter" : "scale-100 rotate-0"}`}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           />
+
+          <style jsx>{`
+            @keyframes jitter {
+              0% { transform: translate(0); }
+              25% { transform: translate(-5px, 5px); }
+              50% { transform: translate(5px, -5px); }
+              75% { transform: translate(-5px, -5px); }
+              100% { transform: translate(0); }
+            }
+
+            .animate-jitter {
+              animation: jitter 0.2s infinite;
+            }
+          `}</style>
 
           {/* Member Info */}
           <div className="text-center text-white mt-8">
