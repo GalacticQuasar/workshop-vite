@@ -6,6 +6,7 @@ import DemoPage from './pages/demoPage.jsx'
 import './index.css'
 import Home from './Home.jsx'
 import Example from './pages/example.jsx';
+import DanielFakunle from './pages/danielFakunle.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -42,8 +43,8 @@ function ProfileRouter() {
       return <DemoPage />;
     case "Person7":
       return <DemoPage />;
-    case "Person8":
-        return <DemoPage />;
+    case "Daniel":
+      return <DanielFakunle />;
     case "Person9":
       return <DemoPage />;
     case "Person10":
