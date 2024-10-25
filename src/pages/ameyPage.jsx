@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link for navigation
 import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
-export default function DemoPage() {
+export default function AmeyPage() {
   const [isHovered, setIsHovered] = useState(false);
   const [showOutline, setShowOutline] = useState(false);
 
