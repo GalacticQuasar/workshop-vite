@@ -8,6 +8,7 @@ import ShreyasViswanathan from './pages/shreyasViswanathan.jsx';
 import './index.css'
 import Home from './Home.jsx'
 import Example from './pages/example.jsx';
+import Kaley from './pages/Kaley.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -31,7 +32,7 @@ function ProfileRouter() {
 
     // Change <DemoPage /> to your custom profile page, and change the case to your name
     case "Person1":
-      return <DemoPage />;
+      return <Kaley />;
     case "Person2":
       return <DemoPage />;
     case "Person3":
