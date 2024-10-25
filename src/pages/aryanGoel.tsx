@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link for navigation
 import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
-export default function Kaley() {
+export default function AryanGoel() {
   const [isHovered, setIsHovered] = useState(false);
   const [showOutline, setShowOutline] = useState(false);
 
@@ -42,7 +42,7 @@ export default function Kaley() {
         <div className="w-full h-3/6 flex flex-col items-center mt-4 pt-12">
           {/* Profile Picture */}
           <img
-            src="../kaley.jpeg" // Placeholder image
+            src="../Aryanpic.png" // Placeholder image
             alt="Profile Picture"
             className={`w-48 h-48 object-cover ${
               isHovered ? "scale-110" : "scale-100"
@@ -53,11 +53,11 @@ export default function Kaley() {
 
           {/* Member Info */}
           <div className="text-center text-white mt-8">
-            <h2 className="text-4xl font-bold">Kaley Kwan</h2>
-            <h3 className="text-xl mt-2">Team Lead</h3>
+            <h2 className="text-4xl font-bold">Aryan Goel</h2>
+            <h3 className="text-xl mt-2">Developer</h3>
             <p className="mt-4 text-gray-400 max-w-md">
-              Junior computer science student at Purdue University, from the Bay
-              Area, California. First year in Hack the Future.
+              Computer science student at Purdue University, from South
+              Carolina. 1st year in Hack the Future, currently a freshman
             </p>
           </div>
           <Link
@@ -107,14 +107,14 @@ export default function Kaley() {
                 <FaInstagram className="hover:animate-pop cursor-pointer" />
               </a>
               <a
-                href="https://www.linkedin.com/company/hack-the-future-at-purdue/"
+                href="https://www.linkedin.com/in/aryan-goel-564359313/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedin className="hover:animate-pop cursor-pointer" />
               </a>
               <a
-                href="https://github.com/Hack-the-Future"
+                href="https://github.com/arygoel42"
                 target="_blank"
                 rel="noreferrer"
               >

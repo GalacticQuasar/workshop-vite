@@ -8,7 +8,7 @@ export default function Home() {
   // Names and images for each profile
   const profileData = [
     { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" }, // Feel free to remove demo page whenever you want
-    { name: "Person1", imageSrc: "/defaultpfp.jpg" },
+    { name: "Kaley", imageSrc: "/kaley.jpeg" },
     { name: "Person2", imageSrc: "/defaultpfp.jpg" },
     { name: "Amey Bhandari", imageSrc: "/defaultpfp.jpg" },
     { name: "ShreyasViswanathan", imageSrc: "/shreyas.jpg" },
@@ -27,7 +27,9 @@ export default function Home() {
   return (
     <>
       <div
-        className={`min-h-screen w-screen bg-black flex flex-col ${showOutline ? "outline" : ""}`}
+        className={`min-h-screen w-screen bg-black flex flex-col ${
+          showOutline ? "outline" : ""
+        }`}
       >
         {/* Outline Toggle Button */}
         <div className="absolute top-4 right-4 flex items-center">
