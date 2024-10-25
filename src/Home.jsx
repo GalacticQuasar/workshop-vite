@@ -12,7 +12,7 @@ export default function Home() {
     { name: "Person1", imageSrc: "/defaultpfp.jpg" },
     { name: "Person2", imageSrc: "/defaultpfp.jpg" },
     { name: "Person3", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person4", imageSrc: "/defaultpfp.jpg" },
+    { name: "ShreyasViswanathan", imageSrc: "/shreyas.jpg" },
     { name: "Person5", imageSrc: "/defaultpfp.jpg" },
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
     { name: "Person7", imageSrc: "/defaultpfp.jpg" },
