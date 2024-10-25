@@ -9,7 +9,7 @@ export default function Home() {
   const profileData = [
     { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" }, // Feel free to remove demo page whenever you want
     { name: "Kaley", imageSrc: "/kaley.jpeg" },
-    { name: "Anya Pokrovskaya", imageSrc: "/Anya.jpeg" },
+    { name: "AnyaPokrovskaya", imageSrc: "/Anya.jpeg" },
     { name: "Amey Bhandari", imageSrc: "/defaultpfp.jpg" },
     { name: "ShreyasViswanathan", imageSrc: "/shreyas.jpg" },
     { name: "Sohaib", imageSrc: "/sohaib.png" },
