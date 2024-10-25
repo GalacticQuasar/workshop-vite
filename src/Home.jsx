@@ -1,24 +1,23 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function Home() {
-
   const [showOutline, setShowOutline] = useState(false);
 
-  // Names and images for each profile 
+  // Names and images for each profile
   const profileData = [
-    { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" },  // Feel free to remove demo page whenever you want
+    { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" }, // Feel free to remove demo page whenever you want
     { name: "Person1", imageSrc: "/defaultpfp.jpg" },
     { name: "Person2", imageSrc: "/defaultpfp.jpg" },
     { name: "Person3", imageSrc: "/defaultpfp.jpg" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person5", imageSrc: "/defaultpfp.jpg" },
+    { name: "Sohaib", imageSrc: "/sohaib.png" },
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
     { name: "Person7", imageSrc: "/defaultpfp.jpg" },
     { name: "Person8", imageSrc: "/defaultpfp.jpg" },
     { name: "Person9", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person10", imageSrc: "/defaultpfp.jpg" }
+    { name: "Person10", imageSrc: "/defaultpfp.jpg" },
   ];
 
   const toggleOutline = () => {
@@ -27,7 +26,7 @@ export default function Home() {
 
   return (
     <>
-      <div className={`min-h-screen w-screen bg-black flex flex-col ${showOutline ? 'outline' : ''}`}>
+      <div className={`min-h-screen w-screen bg-black flex flex-col ${showOutline ? "outline" : ""}`}>
         {/* Outline Toggle Button */}
         <div className="absolute top-4 right-4 flex items-center">
           <label className="switch">
@@ -47,11 +46,7 @@ export default function Home() {
           {profileData.map((profile) => (
             <div key={profile.name} className="w-48 h-48 flex flex-col items-center font-monument text-xl">
               <Link to={`/profile/${profile.name}`}>
-                <img
-                  className="profile-img"
-                  src={profile.imageSrc}
-                  alt={`${profile.name}'s profile`}
-                />
+                <img className="profile-img" src={profile.imageSrc} alt={`${profile.name}'s profile`} />
               </Link>
               <span className="text-white font-semibold mt-2">{profile.name}</span>
             </div>
