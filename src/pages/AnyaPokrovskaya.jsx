@@ -35,7 +35,7 @@ export default function AnyaPokrovskaya() {
         <div className="w-full h-3/6 flex flex-col items-center mt-4 pt-12">
           {/* Profile Picture */}
           <img
-            src="../ryanpic.jpg" // Placeholder image
+            src="../Anya.jpeg" // Placeholder image
             alt="Profile Picture"
             className={`w-48 h-48 object-cover ${isHovered ? "scale-110" : "scale-100"} transition-transform duration-300`}
             onMouseEnter={() => setIsHovered(true)}
@@ -44,8 +44,8 @@ export default function AnyaPokrovskaya() {
 
           {/* Member Info */}
           <div className="text-center text-white mt-8">
-            <h2 className="text-4xl font-bold">Ryan Erickson</h2>
-            <h3 className="text-xl mt-2">Technical Director</h3>
+            <h2 className="text-4xl font-bold">Anya Pokrovskaya</h2>
+            <h3 className="text-xl mt-2">Developer</h3>
             <p className="mt-4 text-gray-400 max-w-md">
               Computer science student at Purdue University, from Prior Lake Minnesota.
               2nd year in Hack the Future, previously a member of YWCA Scheduling team.
