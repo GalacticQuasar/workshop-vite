@@ -14,7 +14,7 @@ export default function Home() {
     { name: "ShreyasViswanathan", imageSrc: "/shreyas.jpg" },
     { name: "Sohaib", imageSrc: "/sohaib.png" },
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person7", imageSrc: "/defaultpfp.jpg" },
+    { name: "Akash Ravandhu", imageSrc: "/AkashPic.jpg" },
     { name: "Daniel", imageSrc: "/danielFakunle.jpg" },
     { name: "Person9", imageSrc: "/defaultpfp.jpg" },
     { name: "Person10", imageSrc: "/defaultpfp.jpg" },
