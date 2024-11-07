@@ -105,4 +105,9 @@
     transform: scale(1.1);
     cursor: pointer;
   }
+
+.switch {
+    transform: scale(2);
+    padding: 5px;
+}
   

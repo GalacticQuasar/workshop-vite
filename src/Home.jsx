@@ -8,14 +8,13 @@ export default function Home() {
   // Names and images for each profile
   const profileData = [
     { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" }, // Feel free to remove demo page whenever you want
-    { name: "Kaley", imageSrc: "/kaley.jpeg" },
+    { name: "Akash Ravandhu", imageSrc: "/AkashPic.jpg" },
     { name: "AnyaPokrovskaya", imageSrc: "/Anya.jpeg" },
     { name: "Amey Bhandari", imageSrc: "/defaultpfp.jpg" },
     { name: "ShreyasViswanathan", imageSrc: "/shreyas.jpg" },
     { name: "Sohaib", imageSrc: "/sohaib.png" },
-    { name: "Person6", imageSrc: "/defaultpfp.jpg" },
-    { name: "Akash Ravandhu", imageSrc: "/AkashPic.jpg" },
     { name: "Daniel", imageSrc: "/danielFakunle.jpg" },
+    { name: "Person8", imageSrc: "/defaultpfp.jpg" },
     { name: "Person9", imageSrc: "/defaultpfp.jpg" },
     { name: "Person10", imageSrc: "/defaultpfp.jpg" },
   ];
